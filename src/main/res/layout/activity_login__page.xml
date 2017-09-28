@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/next"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aswin.learningapp.Login_Page">
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText2"
+        android:layout_marginTop="99dp"
+        android:layout_toEndOf="@+id/editText2"
+        android:layout_toRightOf="@+id/editText2"
+        android:text="@string/next" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_alignStart="@+id/editText2"
+        android:layout_below="@+id/textView"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/email" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/sign_in_button"
+        android:layout_alignStart="@+id/sign_in_button"
+        android:layout_below="@+id/textView"
+        android:layout_marginLeft="46dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="143dp"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/editText"
+        android:layout_marginTop="36dp"
+        android:text="@string/mail"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editText2"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_alignStart="@+id/editText2"
+        android:layout_marginBottom="41dp"
+        android:text="@string/password"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button2"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp"
+        android:text="@string/signin" />
+
+
+</RelativeLayout>

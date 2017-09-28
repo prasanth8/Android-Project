@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">LearningApp</string>
+    <string name="next">Next</string>
+    <string name="name">Enter the Name</string>
+    <string name="mobile">Enter mobile number</string>
+    <string name="linked_in">Enter linked_in id</string>
+    <string name="email"></string>
+    <string name="mail">Enter e-mail id</string>
+    <string name="password">Enter the password</string>
+    <string name="signin">Sign_Up</string>
+    <string name="next2">Next</string>
+    <string name="title_activity_current__location">Your Location</string>
+</resources>
